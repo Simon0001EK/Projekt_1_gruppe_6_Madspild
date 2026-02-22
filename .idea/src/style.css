@@ -1,0 +1,96 @@
+/* --- Global reset og skrifttype --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #388e3c; /* Grøn baggrund */
+    color: white;
+    text-align: center;
+}
+
+/* --- Header --- */
+header {
+    background-color: white;
+    color: #388e3c;
+    padding: 20px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* --- Navigation --- */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #a5d6a7; /* Lys grøn når musen hovrer */
+}
+
+/* --- Hovedindhold --- */
+main {
+    padding: 50px 20px;
+}
+
+main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+/* Knap */
+.button {
+    background-color: white;
+    color: #388e3c;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #2e7030; /* Mørkere grøn ved hover */
+    color: white;
+}
+/* Linket puttes i blokke */
+nav a {
+    display: inline-block;
+    background-color: white;
+    color: #388e3c;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* Når man har musen over boksen sp bliver farven mørkere*/
+nav a:hover {
+    background-color: #2e7030;
+    color: white;
+}
+
+/* --- Footer --- */
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    font-size: 14px;
+}
