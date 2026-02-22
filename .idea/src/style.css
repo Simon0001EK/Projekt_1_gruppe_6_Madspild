@@ -1,4 +1,4 @@
-/* --- Global reset og skrifttype --- */
+/* Global reset og skrifttype */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     text-align: center;
 }
 
-/* Header  */
+/* Header */
 header {
     background-color: white;
     color: #388e3c;
@@ -21,7 +21,7 @@ header {
     font-weight: bold;
 }
 
-/* --- Navigation --- */
+/* Navigation */
 nav {
     margin: 20px 0;
 }
@@ -38,7 +38,7 @@ nav a:hover {
     color: #a5d6a7; /* Lys grøn når musen hovrer */
 }
 
-/* --- Hovedindhold --- */
+/* Hovedindhold */
 main {
     padding: 50px 20px;
 }
@@ -88,7 +88,7 @@ nav a:hover {
     color: white;
 }
 
-/* --- Footer --- */
+/* Footer */
 footer {
     margin-top: 50px;
     padding: 20px 0;
